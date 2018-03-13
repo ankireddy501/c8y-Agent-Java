@@ -1,6 +1,0 @@
-com\softwareag\parkingpi\Sensor.class
-com\softwareag\parkingpi\helper\PiProperties.class
-com\softwareag\parkingpi\helper\JsonHelper.class
-com\softwareag\parkingpi\MeasurementPublisher.class
-com\softwareag\parkingpi\ParkingPiDriver.class
-com\softwareag\parkingpi\ManageChildDevice.class

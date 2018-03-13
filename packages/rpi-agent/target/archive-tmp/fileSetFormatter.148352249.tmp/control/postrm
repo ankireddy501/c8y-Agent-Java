@@ -1,3 +1,0 @@
-if [ "$1" = "purge" ] && [ -f "/etc/cumulocity-agent.properties" ]; then
-    rm /etc/cumulocity-agent.properties
-fi

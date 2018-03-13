@@ -13,7 +13,7 @@
     <file url="file://$PROJECT_DIR$/packages/mac-agent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/packages/rpi-agent" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/packages/win-agent" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/parking-pi-agent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/parking-pi-driver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/piface-driver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/remote-access-driver" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/rpi-driver" charset="UTF-8" />

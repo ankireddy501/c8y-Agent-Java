@@ -2,295 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea1eb147-9685-43bc-ba2d-e4be2550eea0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/classes/assemblies/c8y-jv-agent-deb.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/classes/assemblies/c8y-jv-agent-linux.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/classes/assemblies/c8y-jv-agent-mac.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/classes/assemblies/c8y-jv-agent-rpm.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/classes/assemblies/c8y-jv-agent-win.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/jv-agent-assembly-8.19.0-deb.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/jv-agent-assembly-8.19.0-mac.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/jv-agent-assembly-8.19.0-rpm.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/jv-agent-assembly-8.19.0-tar.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/jv-agent-assembly-8.19.0-win.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/jv-agent-assembly-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assembly/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/classes/c8y/linux/LinuxGenericHardwareDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/generic-linux-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/test-classes/c8y/linux/LinuxGenericHardwareProviderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generic-linux-driver/target/test-classes/hardware.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/Agent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/ConfigurationDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/Credentials.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/CredentialsManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/DeviceBootstrapProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/DriversLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/ErrorLog.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/JavaSoftwareDriver$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/JavaSoftwareDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/LinuxModemDriver$ResultListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/LinuxModemDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/OperationDispatcher$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/OperationDispatcher$OperationDispatcherSubscriptionListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/OperationDispatcher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/PropUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/ServiceLocatorDriversLoader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/classes/c8y/lx/agent/TracelogDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/jv-agent-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/test-classes/c8y/lx/agent/ConfigurationDriverTest$TestConfigurationListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/test-classes/c8y/lx/agent/ConfigurationDriverTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/test-classes/c8y/lx/agent/CredentialsManagerTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-agent/target/test-classes/configuration.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/Configurable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/DeviceManagedObject.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/Driver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/HardwareProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/MeasurementPollingDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/OperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/OpsUtil.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/PollingDriver$NamedThreadFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/PollingDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/classes/c8y/lx/driver/RestartableTimerTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/jv-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jv-driver/target/test-classes/c8y/lx/driver/DeviceManagedObjectTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/classes/c8y/kontron/AccelerometerDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/classes/c8y/kontron/AccelerometerReader.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/kontron-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/test-classes/accel_full_scale" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/test-classes/accel_xyz_resting" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/test-classes/accel_xyz_shaking" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/test-classes/c8y/kontron/AccelerometerDriverTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/kontron-driver/target/test-classes/c8y/kontron/AccelerometerReaderTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mac-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mac-driver/target/classes/c8y/mac/MacHardwareDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mac-driver/target/mac-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mac-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mac-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mac-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/kontron-agent/target/cumulocity-kontron-agent-8.19.0.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/linux-agent/target/cumulocity-linux-agent-8.19.0.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/mac-agent/target/cumulocity-mac-agent-8.19.0.tar.gz" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/conffiles.1623709635.filtered" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/control.1848723491.filtered" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/control/conffiles" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/control/control" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/control/postinst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/control/postrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/control/prerm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/cumulocity-agent.1125038122.filtered" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/etc/init.d/cumulocity-agent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/postinst.752516601.filtered" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/postrm.249091890.filtered" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/archive-tmp/fileSetFormatter.148352249.tmp/prerm.1812764818.filtered" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/assembly/work/c8y.example_jv-agent-assembly_8.19.0_deb.tar.gz/control/conffiles" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/assembly/work/c8y.example_jv-agent-assembly_8.19.0_deb.tar.gz/control/control" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/assembly/work/c8y.example_jv-agent-assembly_8.19.0_deb.tar.gz/control/postinst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/assembly/work/c8y.example_jv-agent-assembly_8.19.0_deb.tar.gz/control/postrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/assembly/work/c8y.example_jv-agent-assembly_8.19.0_deb.tar.gz/control/prerm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/assembly/work/c8y.example_jv-agent-assembly_8.19.0_deb.tar.gz/etc/init.d/cumulocity-agent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/control/conffiles" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/control/control" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/control/postinst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/control/postrm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/control/prerm" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/etc/init.d/cumulocity-agent" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/c8y-agent-debug.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/c8y-agent-remote-debug.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/c8y-agent.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/cfg/cumulocity.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/cfg/logback-debug.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/cfg/logback.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/bayeux-api-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/com.springsource.javax.validation-1.0.0.GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/cometd-java-client-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/cometd-java-common-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/common-notification-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/common-rest-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/commons-beanutils-1.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/commons-codec-1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/commons-httpclient-3.1-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/core-model-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/device-capability-model-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/googleauth-1.1.1-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/grizzly-framework-2.3.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/grizzly-http-2.3.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/grizzly-http-server-2.3.15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/guava-14.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/guava-18.0-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/java-client-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/javax.websocket-api-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jcl-over-slf4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jersey-apache-client-1.8-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jersey-client-1.8-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jersey-core-1.8-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jersey-multipart-1.8-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jetty-util-7.6.14.v20131031.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/joda-time-1.6.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/json-path-1.2.0-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/json-simple-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jsr311-api-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jssc-2.6.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jv-agent-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/jv-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/logback-classic-1.0.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/logback-core-1.0.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/mimepull-1.4-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/parking-pi-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/pi4j-core-1.2-20170907.193313-36.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/pi4j-device-1.2-20170907.193344-36.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/pi4j-example-1.2-20170907.193354-36.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/pi4j-gpio-extension-1.2-20170907.193332-36.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/piface-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/remote-access-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/rest-representation-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/rpi-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/slf4j-api-1.7.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/spring-aop-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/spring-beans-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/spring-context-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/spring-core-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/spring-expression-3.2.18.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/svenson-1.3.8-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/tinkerforge-2.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/tinkerforge-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/tyrus-client-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/tyrus-container-grizzly-client-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/tyrus-core-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent-8.19.0/usr/share/cumulocity-rpi-agent/lib/tyrus-spi-1.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/rpi-agent/target/cumulocity-rpi-agent_8.19.0_all.deb" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/packages/win-agent/target/cumulocity-win-agent-8.19.0.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/com/softwareag/parkingpi/ManageChildDevice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/com/softwareag/parkingpi/MeasurementPublisher.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/com/softwareag/parkingpi/ParkingPiDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/com/softwareag/parkingpi/Sensor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/com/softwareag/parkingpi/helper/JsonHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/classes/com/softwareag/parkingpi/helper/PiProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/parking-pi-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-agent/target/test-classes/c8y/test/Check.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/parking-pi-driver/parking-pi-driver.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/classes/c8y/piface/PiFaceDriver$EventSwitchListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/classes/c8y/piface/PiFaceDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/piface-driver/target/piface-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/RemoteAccessDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/RemoteAccessException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/RemoteAccessOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/RemoteAccessVncException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/RemoteAccessWebsocketException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/tunnel/AuthHeaderConfigurator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/tunnel/DeviceProxy.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/tunnel/TunnelingThread.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/tunnel/VncSocketClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/tunnel/WebSocketClient$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/classes/c8y/remoteaccess/tunnel/WebSocketClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/remote-access-driver/target/remote-access-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/classes/c8y/rpi/PiFirmwareDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/classes/c8y/rpi/PiHardwareDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/rpi-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/test-classes/c8y/rpi/PiHardwareDriverTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rpi-driver/target/test-classes/hardware.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/BrickConnector.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/Discoverer$DiscoveryFinishedListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/Discoverer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/TFDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/TFIds.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/BarometerBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/BaseSensorBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/BrickletFactory.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/Current12Bricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/Current25Bricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DisplayBricklet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DisplayBricklet$BacklightOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DisplayBricklet$MessageOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DisplayBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DistanceIRBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DistanceUSBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DualRelayBricklet$SetStateOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/DualRelayBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/GpsBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/HumidityBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/IO16Bricklet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/IO16Bricklet$Port.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/IO16Bricklet$RelayArrayOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/IO16Bricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/LightBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/MoistureBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/MotionDetectorBricklet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/MotionDetectorBricklet$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/MotionDetectorBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/PTCBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$Dimmable.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$RelayArrayOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$RemoteDevice.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$RemoteDeviceA.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$RemoteDeviceB.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet$RemoteDeviceC.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RemoteSwitchBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/RotaryPotiBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/SegmentDisplay4x7$MessageOperationExecutor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/SegmentDisplay4x7.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/TemperatureBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/classes/c8y/tinkerforge/bricklet/VoltageCurrentBricklet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/tinkerforge-driver/target/tinkerforge-driver-8.19.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/classes/META-INF/services/c8y.lx.driver.Driver" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/classes/c8y/win/WindowsHardwareDriver.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/test-classes/c8y/win/WindowsHardwareDriverTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/test-classes/hardware.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/win-driver/target/win-driver-8.19.0.jar" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/README.md" afterPath="$PROJECT_DIR$/parking-pi-driver/README.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/parking-pi-driver.iml" afterPath="$PROJECT_DIR$/parking-pi-driver/parking-pi-driver.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/parkingpi.json" afterPath="$PROJECT_DIR$/parking-pi-driver/parkingpi.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/pom.xml" afterPath="$PROJECT_DIR$/parking-pi-driver/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/sendmeasure.json" afterPath="$PROJECT_DIR$/parking-pi-driver/sendmeasure.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/java/com/softwareag/parkingpi/ManageChildDevice.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/java/com/softwareag/parkingpi/ManageChildDevice.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/java/com/softwareag/parkingpi/MeasurementPublisher.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/java/com/softwareag/parkingpi/MeasurementPublisher.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/java/com/softwareag/parkingpi/ParkingPiDriver.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/java/com/softwareag/parkingpi/ParkingPiDriver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/java/com/softwareag/parkingpi/Sensor.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/java/com/softwareag/parkingpi/Sensor.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/java/com/softwareag/parkingpi/helper/JsonHelper.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/java/com/softwareag/parkingpi/helper/JsonHelper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/java/com/softwareag/parkingpi/helper/PiProperties.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/java/com/softwareag/parkingpi/helper/PiProperties.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/main/resources/META-INF/services/c8y.lx.driver.Driver" afterPath="$PROJECT_DIR$/parking-pi-driver/src/main/resources/META-INF/services/c8y.lx.driver.Driver" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/parking-pi-agent/src/test/java/c8y/test/Check.java" afterPath="$PROJECT_DIR$/parking-pi-driver/src/test/java/c8y/test/Check.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="ecd2c2c9-dff7-4513-859b-da34d662775a" name="unwanted" comment="" />
@@ -342,7 +68,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/packages/rpi-agent/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -352,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/parking-pi-agent/pom.xml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/parking-pi-driver/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="1188">
               <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
               <folding />
             </state>
@@ -477,6 +203,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parking-pi-driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parking-pi-driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c8y-Agent-Java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parking-pi-driver" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1108,7 +900,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1520929805668</updated>
-      <workItem from="1520929808607" duration="3206000" />
+      <workItem from="1520929808607" duration="3559000" />
     </task>
     <task id="LOCAL-00001" summary="Cumulocity java agent">
       <created>1520935043577</created>
@@ -1121,7 +913,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3206000" />
+    <option name="totallyTimeSpent" value="3559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -1132,13 +924,13 @@
       <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62835246" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60536397" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.62835246" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60536397" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1152,8 +944,8 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.62835246" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60536397" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62835246" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.60536397" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1211,14 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/parking-pi-agent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -1231,6 +1015,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/parking-pi-driver/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="27" selection-end-line="54" selection-end-column="27" />
           <folding />
         </state>
       </provider>

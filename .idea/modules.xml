@@ -15,7 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/packages/jv-packages.iml" filepath="$PROJECT_DIR$/packages/jv-packages.iml" />
       <module fileurl="file://$PROJECT_DIR$/kontron-driver/kontron-driver.iml" filepath="$PROJECT_DIR$/kontron-driver/kontron-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/mac-driver/mac-driver.iml" filepath="$PROJECT_DIR$/mac-driver/mac-driver.iml" />
-      <module fileurl="file://$PROJECT_DIR$/parking-pi-agent/parking-pi-driver.iml" filepath="$PROJECT_DIR$/parking-pi-agent/parking-pi-driver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/parking-pi-driver/parking-pi-driver.iml" filepath="$PROJECT_DIR$/parking-pi-driver/parking-pi-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/piface-driver/piface-driver.iml" filepath="$PROJECT_DIR$/piface-driver/piface-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/remote-access-driver/remote-access-driver.iml" filepath="$PROJECT_DIR$/remote-access-driver/remote-access-driver.iml" />
       <module fileurl="file://$PROJECT_DIR$/rpi-driver/rpi-driver.iml" filepath="$PROJECT_DIR$/rpi-driver/rpi-driver.iml" />

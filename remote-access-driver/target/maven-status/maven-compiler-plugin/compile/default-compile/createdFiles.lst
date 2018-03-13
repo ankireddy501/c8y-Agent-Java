@@ -1,0 +1,11 @@
+c8y\remoteaccess\tunnel\AuthHeaderConfigurator.class
+c8y\remoteaccess\RemoteAccessVncException.class
+c8y\remoteaccess\RemoteAccessDriver.class
+c8y\remoteaccess\tunnel\WebSocketClient.class
+c8y\remoteaccess\RemoteAccessWebsocketException.class
+c8y\remoteaccess\tunnel\WebSocketClient$1.class
+c8y\remoteaccess\RemoteAccessOperationExecutor.class
+c8y\remoteaccess\tunnel\TunnelingThread.class
+c8y\remoteaccess\tunnel\DeviceProxy.class
+c8y\remoteaccess\RemoteAccessException.class
+c8y\remoteaccess\tunnel\VncSocketClient.class

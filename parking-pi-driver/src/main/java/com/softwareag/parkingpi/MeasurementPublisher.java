@@ -17,16 +17,20 @@ import org.joda.time.DateTime;
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
-public class MeasurementPublisher {
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
+public class MeasurementPublisher {
+    private static Logger logger = LoggerFactory.getLogger(MeasurementPublisher.class);
     public BigDecimal calc_Sensor(Integer trig, Integer echo) {
+        logger.info("Into calc_Sensor");
         Pin trigPin=RaspiPin.getPinByAddress(trig);
         Pin echoPin=RaspiPin.getPinByAddress(echo);
         final GpioPinDigitalOutput sensorTriggerPin = GpioFactory.getInstance().provisionDigitalOutputPin(trigPin);
         final GpioPinDigitalInput sensorEchoPin = GpioFactory.getInstance().provisionDigitalInputPin(echoPin, PinPullResistance.PULL_DOWN);
-        BigDecimal distance =null;
+        BigDecimal distance =BigDecimal.ZERO;
         try {
-            Thread.sleep(1000);
+            Thread.sleep(5000);
             sensorTriggerPin.high(); // Make trigger pin HIGH
             Thread.sleep((long) 0.01);// Delay for 10 microseconds
             sensorTriggerPin.low(); //Make trigger pin LOW
@@ -40,45 +44,55 @@ public class MeasurementPublisher {
             }
             long endTime= System.nanoTime(); // Store the echo pin HIGH end time to calculate ECHO pin HIGH time.
             distance= BigDecimal.valueOf(((((endTime-startTime)/1e3)/2) / 29.1));
-            /*System.out.println("Distance :"+((((endTime-startTime)/1e3)/2) / 29.1) +" cm");*/ //Printing out the distance in cm
-            Thread.sleep(1000);
+            Thread.sleep(200);
 
         } catch (InterruptedException e) {
-            e.printStackTrace();
+            logger.info("could not read measurement from sensor");
         }
         return distance;
     }
 
     void publishMeasurement(Platform platform) {
+
         JSONParser parser=new JSONParser();
         Object obj=new Object();
         try {
-            obj = parser.parse(new FileReader("./cfg/sendmeasure.json"));
+            logger.info("reading the Json File Send measure.json");
+            obj = parser.parse(new FileReader("/home/pi/Desktop/c8y/sendmeasure.json"));
         }catch (Exception e){
-            //Proper exception handlinh
+            logger.info("could not read sendmeasure.json");
         }
         JSONObject object=(JSONObject)obj;
         JSONArray sensors=(JSONArray)object.get("sensors");
-        while (true) {
-            for (Object sensor : sensors) {
-                JSONObject sensorObj = (JSONObject) sensor;
-                String id = (String) sensorObj.get("id");
-                Integer trig = (Integer) sensorObj.get("trig");
-                Integer echo = (Integer) sensorObj.get("echo");
-                MeasurementRepresentation sendMeasure = new MeasurementRepresentation();
-                ManagedObjectRepresentation sourceMo = platform.getInventoryApi().get(GId.asGId(id));
+                while(true){
+                    try {
+                        Thread.sleep(1000);
+                        for (Object sensor : sensors) {
+                            JSONObject sensorObj = (JSONObject) sensor;
+                            String id = (String) sensorObj.get("id");
+                            String trig = (String) sensorObj.get("trig");
+                            String echo = (String) sensorObj.get("echo");
+                            Integer trigpin = Integer.valueOf(trig);
+                            Integer echopin = Integer.valueOf(echo);
+                            MeasurementRepresentation sendMeasure = new MeasurementRepresentation();
+                            ManagedObjectRepresentation sourceMo = platform.getInventoryApi().get(GId.asGId(id));
 
-                sendMeasure.setSource(sourceMo);
-                sendMeasure.setTime(new Date());
-                sendMeasure.setType("c8y_linux");
-                DistanceMeasurement disMeasure = new DistanceMeasurement();
-                MeasurementValue disValue = new MeasurementValue();
-                disValue.setValue(calc_Sensor(trig, echo));
-                disValue.setUnit("cm");
-                disMeasure.setDistance(disValue);
-                sendMeasure.set(disMeasure);
-                platform.getMeasurementApi().create(sendMeasure);
-            }
+                            sendMeasure.setSource(sourceMo);
+                            sendMeasure.setTime(new Date());
+                            sendMeasure.setType("c8y_linux");
+                            DistanceMeasurement disMeasure = new DistanceMeasurement();
+                            MeasurementValue disValue = new MeasurementValue();
+                            disValue.setValue(calc_Sensor(trigpin, echopin));
+                            disValue.setUnit("cm");
+                            disMeasure.setDistance(disValue);
+                            sendMeasure.set(disMeasure);
+                            platform.getMeasurementApi().create(sendMeasure);
+                            logger.info("measurement Sent");
+                        }
+                        Thread.sleep(1000);
+                    }catch (Exception e){
+                        logger.info("problem in Sending MeasureMent");
+                    }
         }
     }
 }

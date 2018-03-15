@@ -32,7 +32,7 @@
         <module>win-driver</module>
         <module>generic-linux-driver</module>
         <module>remote-access-driver</module>
-        <module>parking-pi-agent</module>
+        <module>parking-pi-driver</module>
 	</modules>
 
 	<dependencies>

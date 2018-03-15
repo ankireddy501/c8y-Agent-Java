@@ -2,16 +2,16 @@ package com.softwareag.parkingpi;
 
 public class Sensor {
     private String name;
-    private Integer trig;
-    private Integer echo;
+    private String trig;
+    private String echo;
     private String sID;
-    public Sensor(String name,Integer trig,Integer echo){
+    public Sensor(String name,String trig,String echo){
         this.name=name;
         this.trig=trig;
         this.echo=echo;
     }
 
-    public Sensor(String name, Integer trig, Integer echo, String sID){
+    public Sensor(String name, String trig, String echo, String sID){
         this.name=name;
         this.echo=echo;
         this.trig=trig;
@@ -21,11 +21,11 @@ public class Sensor {
         return name;
     }
 
-    public Integer getEcho() {
+    public String getEcho() {
         return echo;
     }
 
-    public Integer getTrig() {
+    public String getTrig() {
         return trig;
     }
 
@@ -33,11 +33,11 @@ public class Sensor {
         return sID;
     }
 
-    public void setEcho(Integer echo) {
+    public void setEcho(String echo) {
         this.echo = echo;
     }
 
-    public void setTrig(Integer trig) {
+    public void setTrig(String trig) {
         this.trig = trig;
     }
 

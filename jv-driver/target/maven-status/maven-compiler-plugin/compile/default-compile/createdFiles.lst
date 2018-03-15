@@ -1,0 +1,10 @@
+c8y\lx\driver\Driver.class
+c8y\lx\driver\DeviceManagedObject.class
+c8y\lx\driver\PollingDriver.class
+c8y\lx\driver\RestartableTimerTask.class
+c8y\lx\driver\PollingDriver$NamedThreadFactory.class
+c8y\lx\driver\OpsUtil.class
+c8y\lx\driver\Configurable.class
+c8y\lx\driver\OperationExecutor.class
+c8y\lx\driver\MeasurementPollingDriver.class
+c8y\lx\driver\HardwareProvider.class

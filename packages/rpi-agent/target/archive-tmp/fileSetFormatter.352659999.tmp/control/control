@@ -1,0 +1,10 @@
+Package: cumulocity-rpi-agent
+Version: 8.19.0
+Architecture: all
+Maintainer: Cumulocity Support <support@cumulocity.com>
+Section: java
+Priority: optional
+Homepage: http://www.cumulocity.com
+Depends:
+Recommends: default-jre-headless | default-jre | java7-runtime-headless | java7-runtime | java-7-runtime-headless | java-7-runtime
+Description: Cumulocity Linux Agent

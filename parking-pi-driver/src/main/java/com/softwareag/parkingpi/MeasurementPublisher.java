@@ -22,7 +22,9 @@ import org.slf4j.LoggerFactory;
 
 public class MeasurementPublisher {
     private static Logger logger = LoggerFactory.getLogger(MeasurementPublisher.class);
-    public BigDecimal calc_Sensor(Integer trig, Integer echo) {
+    public static boolean performer=true;
+
+    BigDecimal calc_Sensor(Integer trig, Integer echo) {
         BigDecimal distance =BigDecimal.ZERO;
         try {
             final GpioController gpio = GpioFactory.getInstance();
@@ -70,7 +72,7 @@ public class MeasurementPublisher {
         }
         JSONObject object=(JSONObject)obj;
         JSONArray sensors=(JSONArray)object.get("sensors");
-                while(true){
+                while(performer){
                     try {
                         Thread.sleep(1000);
                         for (Object sensor : sensors) {

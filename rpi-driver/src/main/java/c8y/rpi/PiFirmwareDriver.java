@@ -79,7 +79,9 @@ public class PiFirmwareDriver implements Driver, OperationExecutor {
 
 	@Override
 	public OperationExecutor[] getSupportedOperations() {
-		return new OperationExecutor[] { this };
+		return new OperationExecutor[] {
+				this
+		};
 	}
 
 	@Override

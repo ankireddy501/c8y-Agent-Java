@@ -9,6 +9,7 @@ package com.softwareag.parkingpi;
 import c8y.Position;
 import c8y.lx.driver.Driver;
 import c8y.lx.driver.OperationExecutor;
+import com.cumulocity.rest.representation.operation.OperationRepresentation;
 import com.softwareag.parkingpi.helper.JsonHelper;
 import com.softwareag.parkingpi.helper.PiProperties;
 import com.cumulocity.model.idtype.GId;
@@ -53,11 +54,11 @@ public class ParkingPiDriver implements Driver {
         GId parentID = mo.getId();
         List<Sensor> sensors = PiProperties.INSTANCE.getSenors();
         logger.info("Values are Assigned");
-        String getMoName=mo.getName();
+        String getMoName = mo.getName();
         if (!(getMoName.equals(piName))) {
             logger.info("going to Create child device");
             mo.setName(piName);
-            Position position=new Position();
+            Position position = new Position();
             position.setLng(BigDecimal.valueOf(PiProperties.INSTANCE.getLng()));
             position.setLat(BigDecimal.valueOf(PiProperties.INSTANCE.getLat()));
             mo.set(position);
@@ -75,9 +76,8 @@ public class ParkingPiDriver implements Driver {
     @Override
     public void start() {
         logger.info("Parking Pi Started");
-        MeasurementPublisher publisher=new MeasurementPublisher();
+        MeasurementPublisher publisher = new MeasurementPublisher();
         publisher.publishMeasurement(platform);
     }
+
 }
-
-

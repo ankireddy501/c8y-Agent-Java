@@ -1,2 +1,0 @@
-propA = valueA
-propB = valueB

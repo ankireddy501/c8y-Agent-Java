@@ -1,5 +1,7 @@
 com\softwareag\parkingpi\Sensor.class
+com\softwareag\parkingpi\Status.class
 com\softwareag\parkingpi\helper\PiProperties.class
+com\softwareag\parkingpi\ParkingPiStatus.class
 com\softwareag\parkingpi\helper\JsonHelper.class
 com\softwareag\parkingpi\MeasurementPublisher.class
 com\softwareag\parkingpi\ParkingPiDriver.class

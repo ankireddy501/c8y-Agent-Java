@@ -23,13 +23,14 @@ import org.slf4j.LoggerFactory;
 public class MeasurementPublisher {
     private static Logger logger = LoggerFactory.getLogger(MeasurementPublisher.class);
     public BigDecimal calc_Sensor(Integer trig, Integer echo) {
-        logger.info("Into calc_Sensor");
-        Pin trigPin=RaspiPin.getPinByAddress(trig);
-        Pin echoPin=RaspiPin.getPinByAddress(echo);
-        final GpioPinDigitalOutput sensorTriggerPin = GpioFactory.getInstance().provisionDigitalOutputPin(trigPin);
-        final GpioPinDigitalInput sensorEchoPin = GpioFactory.getInstance().provisionDigitalInputPin(echoPin, PinPullResistance.PULL_DOWN);
         BigDecimal distance =BigDecimal.ZERO;
         try {
+            final GpioController gpio = GpioFactory.getInstance();
+            logger.info("Into calc_Sensor");
+            Pin trigPin=RaspiPin.getPinByAddress(trig);
+            Pin echoPin=RaspiPin.getPinByAddress(echo);
+            final GpioPinDigitalOutput sensorTriggerPin = gpio.provisionDigitalOutputPin(trigPin);
+            final GpioPinDigitalInput sensorEchoPin = gpio.provisionDigitalInputPin(echoPin, PinPullResistance.PULL_DOWN);
             Thread.sleep(5000);
             sensorTriggerPin.high(); // Make trigger pin HIGH
             Thread.sleep((long) 0.01);// Delay for 10 microseconds
@@ -45,10 +46,15 @@ public class MeasurementPublisher {
             long endTime= System.nanoTime(); // Store the echo pin HIGH end time to calculate ECHO pin HIGH time.
             distance= BigDecimal.valueOf(((((endTime-startTime)/1e3)/2) / 29.1));
             Thread.sleep(200);
-
+            sensorTriggerPin.setShutdownOptions(true, PinState.LOW);
+            sensorEchoPin.setShutdownOptions(true, PinState.LOW, PinPullResistance.OFF);
+            gpio.shutdown();
+            gpio.unprovisionPin(sensorTriggerPin);
+            gpio.unprovisionPin(sensorEchoPin);
         } catch (InterruptedException e) {
-            logger.info("could not read measurement from sensor");
+            logger.error("could not read measurement from sensor", e);
         }
+       
         return distance;
     }
 
@@ -72,6 +78,7 @@ public class MeasurementPublisher {
                             String id = (String) sensorObj.get("id");
                             String trig = (String) sensorObj.get("trig");
                             String echo = (String) sensorObj.get("echo");
+                            logger.info("Trying to publish for sensor " + id);
                             Integer trigpin = Integer.valueOf(trig);
                             Integer echopin = Integer.valueOf(echo);
                             MeasurementRepresentation sendMeasure = new MeasurementRepresentation();
@@ -82,7 +89,9 @@ public class MeasurementPublisher {
                             sendMeasure.setType("c8y_linux");
                             DistanceMeasurement disMeasure = new DistanceMeasurement();
                             MeasurementValue disValue = new MeasurementValue();
-                            disValue.setValue(calc_Sensor(trigpin, echopin));
+                            BigDecimal sensorVal = calc_Sensor(trigpin, echopin);
+                            disValue.setValue(sensorVal);
+                            logger.info("Sensor value of " + id + " is " + sensorVal);
                             disValue.setUnit("cm");
                             disMeasure.setDistance(disValue);
                             sendMeasure.set(disMeasure);
@@ -91,7 +100,8 @@ public class MeasurementPublisher {
                         }
                         Thread.sleep(1000);
                     }catch (Exception e){
-                        logger.info("problem in Sending MeasureMent");
+                        e.printStackTrace();
+                        logger.error("problem in Sending MeasureMent to c8y", e);
                     }
         }
     }

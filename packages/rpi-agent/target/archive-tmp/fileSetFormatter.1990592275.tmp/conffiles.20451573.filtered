@@ -1,0 +1,3 @@
+/etc/cumulocity-agent.properties
+/etc/init.d/cumulocity-agent
+/usr/share/cumulocity-rpi-agent/cfg/logback.xml

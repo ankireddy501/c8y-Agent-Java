@@ -61,7 +61,7 @@ public class ParkingPiDriver implements Driver {
             position.setLng(BigDecimal.valueOf(PiProperties.INSTANCE.getLng()));
             position.setLat(BigDecimal.valueOf(PiProperties.INSTANCE.getLat()));
             mo.set(position);
-            mo.setType("c8y_ParkingPi");
+            mo.set(new ParkingPiStatus(Status.ACTIVE));
             mo.setLastUpdated(null);
             platform.getInventoryApi().update(mo);
             ManageChildDevice manageChildDevice = new ManageChildDevice();

@@ -15,6 +15,16 @@ It consists of the following modules:
  * assembly: Base packaging for all environments.
  * packages: Environment specific packaging.
  
+ # Pre Process
+  At First you have to remove the Piface Driver and copy the ParkingPiDriver to RaspberryPi after Installing The Cumulocity Latest Rpi Agent to do this Run the following commands as sudo in the Terminal window 
+  
+  ```
+  rm /home
+  xrxdxtrdct
+  ytfycv
+ 
+  ```
+ 
 # Parking-pi-driver
   ***ParkingPiDriver.java***
   * To Run this Driver Apart from the above files You have add Google Simple Json dependency jar to the POM.XML.
@@ -26,7 +36,7 @@ It consists of the following modules:
    
   ***ManageChildDevices.java***
   * This Class Creates the Sensors as ManagedObject and add it as Child device to The Parent parking Pi.
-  * ManagedObjecet is Set type as c8y_DistanceSensorm and Measurement Type as Distance Measurement And the name of this Device also get from ParkingPiJson
+  * ManagedObjecet is Set type as c8y_DistanceSensor and Measurement Type as Distance Measurement And the name of this Device also get from ParkingPiJson
       
   ***MeasurementPublisher.java***
   * Reads Echo trig and sourceId From the sendmeasure.json file

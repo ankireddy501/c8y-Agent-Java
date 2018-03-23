@@ -19,11 +19,11 @@ It consists of the following modules:
   At First you have to remove the Piface Driver and copy the ParkingPiDriver to RaspberryPi after Installing The Cumulocity Latest Rpi Agent to do this Run the following commands as sudo in the Terminal window 
   
   ```
-  rm /home
-  xrxdxtrdct
-  ytfycv
- 
+  rm /usr/share/cumulocity-rpi-agent/lib/piface-driver-8.17.0-SNAPSHOT.jar
+  cp <<ParkingPiDriver.jar Location>> /usr/share/cumulocity-rpi-agent/lib/
+  cp <<json-simple-1.1.1.jar Location>> /usr/share/cumulocity-rpi-agent/lib/
   ```
+ And Restart the agent.
  
 # Parking-pi-driver
   ***ParkingPiDriver.java***

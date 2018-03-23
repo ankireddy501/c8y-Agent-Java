@@ -17,14 +17,20 @@ It consists of the following modules:
  
 # Parking-pi-driver
   ***ParkingPiDriver.Java***
-   To Run this Driver Apart from the above files You have add Google Simple Json dependency jar to tha POM.XML
-   The main Java class is parking-pi-driver\src\main\java\com\softwareag\parkingpi\ParkingPiDriver.java which updates the parking pi's name, position and parking pi's Status which is not set by the c8y raspberry-pi agent(sets only for the first time of running from the Parking pi.json File which has been at the location /home/pi/Desktop/c8y/) 
-   It also creates the ChildDevices(Basically the sensors) based on the Array size of sensors key in same Json file and copy the sensors array and updated with the SystemID(from c8y) also generate sendmeasure.Json file in same directory Using *ManageChildDevices.java* class.
-   The location of parkingpi.json be anywhere in pi but you have to update the file location in The class com\softwareag\parkingpi\PiProperties.java
-   Start to send Measurents to sensors using *MeasurementPublisher.java* class.
+  To Run this Driver Apart from the above files You have add Google Simple Json dependency jar to tha POM.XML.
+  The main Java class is parking-pi-driver\src\main\java\com\softwareag\parkingpi\ParkingPiDriver.java which updates the parking pi's
+  name, position and parking pi's Status which is not set by the c8y raspberry-pi agent(sets only for the first time of running from the
+  Parking pi.json File which has been at the location /home/pi/Desktop/c8y/).
+  It also creates the ChildDevices(Basically the sensors) based on the Array size of sensors key in same Json file and copy the sensors
+  array and updated with the SystemID(from c8y) also generate sendmeasure.Json file in same directory Using *ManageChildDevices.java*
+  class.
+  The location of parkingpi.json be anywhere in pi but you have to update the file location in The class
+  com\softwareag\parkingpi\PiProperties.java
+  Start to send Measurents to sensors using *MeasurementPublisher.java* class.
    
    ***ManageChildDevices.java***
    This Class Creates the Sensors as ManagedObject and add it as Child device to The Parent parking Pi.
-   ManagedObjecet is Set type as c8y_DistanceSensorm and Measurement Type as Distance Measurement And the name of this Device also get from Parking Pi.Json
-   
+   ManagedObjecet is Set type as c8y_DistanceSensorm and Measurement Type as Distance Measurement And the name of this Device also get
+   from Parking Pi.Json
+      
    ***MeasurementPublisher.Java***
